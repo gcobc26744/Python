@@ -2,8 +2,13 @@ favorite_language = 'python '
 favorite_language
 favorite_language.rstrip()
 favorite_language
+favorite_language = favorite_language.rstrip()
+favorite_language
+
 
 """
+幫下面總結，就是要按 shift + enter。
+
 你在 CMD 中成功運行的原因是因為你在使用 Python 的互動模式（REPL）。在互動模式中，你可以逐行輸入和執行 Python 代碼，因此可以直接看到輸出的結果。而在 VSCode 中，你是在運行一個 Python 腳本文件，這需要注意一些不同的細節。
 
 ### 在互動模式中的代碼：
