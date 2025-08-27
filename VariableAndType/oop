@@ -1,0 +1,29 @@
+class  Animal:
+    alive = True
+    def eat(self):
+        print("This animal is eating")
+class Rabbit(Animal):
+    def hop(self):
+        print("This rabbit is hopping")
+
+class Fish(Animal):
+    def swim(self):
+        print("This fish is swimming")
+
+class Hawk(Animal):
+    def fly(self):
+        print("This hawk is flying")    
+
+
+rabbit = Rabbit()           
+fish = Fish()
+hawk = Hawk()   
+print(rabbit.alive)
+rabbit.eat()
+rabbit.hop()
+print(fish.alive)   
+fish.eat()
+fish.swim()
+print(hawk.alive)
+hawk.eat()
+hawk.fly()
